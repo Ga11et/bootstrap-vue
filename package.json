@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Ga11et/bootstrap-vue.git",
+  "author": "Fyodor <sivkov1998@yandex.ru>",
+  "license": "MIT",
+  "scripts": {
+    "build": "vite build",
+    "serve": "vite"
+  },
+  "devDependencies": {
+    "sass": "^1.62.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.4",
+    "pinia": "^2.0.34",
+    "vite": "^4.2.2",
+    "vue": "^3.2.47"
+  }
+}
