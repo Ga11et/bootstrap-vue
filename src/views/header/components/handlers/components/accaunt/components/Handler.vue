@@ -1,8 +1,8 @@
 <template>
   <a
-    class="nav-link handler d-flex align-items-center pe-4"
+    class="nav-link handler d-flex align-items-center"
     href="#"
-    date-bs-toggle="dropdown"
+    data-bs-toggle="dropdown"
     aria-expanded="false"
   >
     <img class="d-block image rounded-circle me-2" :src="content.image" :alt="content.name" />
