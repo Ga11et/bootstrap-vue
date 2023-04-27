@@ -4,15 +4,18 @@
       <img class="image d-block" :src="logo" alt="logo" />
       <span class="text d-none d-lg-block">NiceAdmin</span>
     </a>
-    <i class="bi bi-list"></i>
+    <i @click="toggleSidebar" class="bi bi-list toggle-sidebar-btn"></i>
   </div>
 </template>
 <script setup>
 import { useHeaderStore } from '@/store/header'
+import { useSidebarStore } from '@/store/sidebar'
 import { computed } from 'vue'
 
-const store = useHeaderStore()
-const logo = computed(() => store.getLogo)
+const headerStore = useHeaderStore()
+const sidebarStore = useSidebarStore()
+const logo = computed(() => headerStore.getLogo)
+const toggleSidebar = sidebarStore.toggleActiveSidebar
 </script>
 <style lang="css" scoped>
 .menu .text {
