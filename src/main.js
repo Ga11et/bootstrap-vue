@@ -5,7 +5,12 @@ import { createApp } from 'vue'
 import BaseApp from './BaseApp.vue'
 import { createPinia } from 'pinia'
 import router from '@/router/router'
+import BaseHeading from '@/components/BaseHeading.vue'
 
 const pinia = createPinia()
 
-createApp(BaseApp).use(pinia).use(router).mount('#app')
+const app = createApp(BaseApp).use(pinia).use(router)
+
+app.component('BaseHeading', BaseHeading)
+
+app.mount('#app')

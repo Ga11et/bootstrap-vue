@@ -9,7 +9,7 @@ const routes = [
     path: '/Dashboard',
     component: () => import('../views/main/compoents/dashboard/Dashboard.vue'),
   },
-  { path: '/alerts', component: () => import('../views/main/compoents/components/Alerts.vue') },
+  { path: '/alerts', component: () => import('../views/main/compoents/alerts/Alerts.vue') },
 ]
 
 const router = createRouter({
