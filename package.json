@@ -15,11 +15,14 @@
   "dependencies": {
     "@popperjs/core": "^2.11.7",
     "@vitejs/plugin-vue": "^4.1.0",
+    "apexcharts": "^3.39.0",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.4",
+    "datatables.net-vue3": "^2.1.0",
     "pinia": "^2.0.34",
     "vite": "^4.2.2",
     "vue": "^3.2.47",
-    "vue-router": "^4.1.6"
+    "vue-router": "^4.1.6",
+    "vue3-apexcharts": "^1.4.1"
   }
 }

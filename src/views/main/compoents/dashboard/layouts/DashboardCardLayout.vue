@@ -1,12 +1,14 @@
 <template>
-  <div class="col-4">
+  <div>
     <div class="card p-4 pt-0">
       <DashboardCardHeader :content="content" />
+      <slot></slot>
     </div>
   </div>
 </template>
 <script setup>
-import DashboardCardHeader from './header/DashboardCardHeader.vue'
+import DashboardCardHeader from '../components/header/DashboardCardHeader.vue'
+
 const props = defineProps({
   content: {
     type: Object,

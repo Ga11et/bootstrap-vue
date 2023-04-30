@@ -6,10 +6,11 @@ import BaseApp from './BaseApp.vue'
 import { createPinia } from 'pinia'
 import router from '@/router/router'
 import BaseHeading from '@/components/BaseHeading.vue'
+import VueApexCharts from 'vue3-apexcharts'
 
 const pinia = createPinia()
 
-const app = createApp(BaseApp).use(pinia).use(router)
+const app = createApp(BaseApp).use(pinia).use(router).use(VueApexCharts)
 
 app.component('BaseHeading', BaseHeading)
 
