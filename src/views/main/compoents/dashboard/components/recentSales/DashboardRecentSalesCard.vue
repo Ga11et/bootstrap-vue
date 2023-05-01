@@ -17,7 +17,7 @@
 import DashboardCardLayout from '../../layouts/DashboardCardLayout.vue'
 import DataTable from 'datatables.net-vue3'
 import DataTablesCore from 'datatables.net'
-import { useDashboardStore } from '@/store/views/dashboard'
+import { useDashboardStore } from '@/store/views/dashboard/dashboard'
 import { computed } from 'vue'
 DataTable.use(DataTablesCore)
 

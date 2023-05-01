@@ -17,7 +17,7 @@
   </div>
 </template>
 <script setup>
-import { useDashboardStore } from '@/store/views/dashboard'
+import { useDashboardStore } from '@/store/views/dashboard/dashboard'
 import { computed } from 'vue'
 import DashboardApexChart from './components/chart/DashboardApexChart.vue'
 import DashboardRecentSalesCard from './components/recentSales/DashboardRecentSalesCard.vue'
