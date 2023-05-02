@@ -6,10 +6,14 @@ const routes = [
     component: () => import('../views/main/compoents/dashboard/Dashboard.vue'),
   },
   {
-    path: '/Dashboard',
+    path: '/dashboard',
     component: () => import('../views/main/compoents/dashboard/Dashboard.vue'),
   },
   { path: '/alerts', component: () => import('../views/main/compoents/alerts/Alerts.vue') },
+  {
+    path: '/accordion',
+    component: () => import('../views/main/compoents/accordion/Accordion.vue'),
+  },
 ]
 
 const router = createRouter({

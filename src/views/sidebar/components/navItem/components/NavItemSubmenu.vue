@@ -2,7 +2,7 @@
   <ul v-if="content.components" :id="id" data-bs-parent="#sidebar-nav" class="ul ps-4 collapse">
     <li v-for="item in content.components" :key="item.id" class="d-flex align-items-center">
       <router-link
-        class="link sublink d-flex p-2 w-100"
+        class="link sublink d-flex p-3 w-100"
         :class="{ active: activeLink === item.id }"
         :to="item.link"
         @click="setActiveLink(item.id)"
@@ -44,7 +44,8 @@ const setActiveLink = sidebarStore.setActiveLink
   font-size: 14px;
   line-height: 14px;
 }
-.ul .sublink.active {
+.ul .sublink.active,
+.ul .sublink:hover {
   color: #4154f1;
 }
 .ul .sublink i {
