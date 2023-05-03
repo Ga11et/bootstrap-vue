@@ -22,6 +22,10 @@ const routes = [
     path: '/breadcrumbs',
     component: () => import('../views/main/components/breadcrumbs/Breadcrumbs.vue'),
   },
+  {
+    path: '/buttons',
+    component: () => import('../views/main/components/buttons/Buttons.vue'),
+  },
 ]
 
 const router = createRouter({
