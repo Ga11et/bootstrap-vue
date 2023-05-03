@@ -8,6 +8,7 @@ import router from '@/router/router'
 import BaseHeading from '@/components/BaseHeading.vue'
 import BaseCard from '@/components/BaseCard.vue'
 import VueApexCharts from 'vue3-apexcharts'
+import './styles.css'
 
 const pinia = createPinia()
 

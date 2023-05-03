@@ -30,4 +30,7 @@ const props = defineProps({
   color: #899bbd;
   font-weight: 600;
 }
+.baseHeading .breadcrumb .breadcrumb-item:last-child {
+  color: #51678f;
+}
 </style>

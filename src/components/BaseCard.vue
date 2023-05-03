@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card border-0">
     <div class="card-body">
       <h2 class="card-title m-0 my-2">{{ content }}</h2>
       <slot></slot>
@@ -21,7 +21,7 @@ const props = defineProps({
 .card .card-body .card-title {
   padding: 0 0 15px 0;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
   color: #012970;
 }
 </style>
