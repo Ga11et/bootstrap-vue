@@ -41,4 +41,13 @@ const nav = computed(() => sidebarStore.getSidebarNav)
 .sidebar .sidebar-nav {
   list-style-type: none;
 }
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #fff;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #aab7cf;
+}
 </style>

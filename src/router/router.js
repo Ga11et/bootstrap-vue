@@ -18,6 +18,10 @@ const routes = [
     path: '/badges',
     component: () => import('../views/main/components/badges/Badges.vue'),
   },
+  {
+    path: '/breadcrumbs',
+    component: () => import('../views/main/components/breadcrumbs/Breadcrumbs.vue'),
+  },
 ]
 
 const router = createRouter({

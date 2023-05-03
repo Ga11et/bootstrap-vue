@@ -4,7 +4,7 @@
   </base-card>
 </template>
 <script setup>
-import { useBadgesStore } from '@/store/views/badges/badges'
+import { useBadgesStore } from '@/store/views/components/badges/badges'
 import { computed } from 'vue'
 import HeadingWithBadge from './components/HeadingWithBadge.vue'
 const badgesStore = useBadgesStore()

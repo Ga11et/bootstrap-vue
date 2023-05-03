@@ -19,7 +19,7 @@
   </div>
 </template>
 <script setup>
-import { useAlertsStore } from '@/store/views/alerts/alerts'
+import { useAlertsStore } from '@/store/views/components/alerts/alerts'
 import { computed } from 'vue'
 import AlertsDefaultCard from './components/defaultCard/AlertsDefaultCard.vue'
 import AlertsFilledCard from './components/filledCard/AlertsFilledCard.vue'

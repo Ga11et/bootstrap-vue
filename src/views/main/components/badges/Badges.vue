@@ -18,7 +18,7 @@
   </div>
 </template>
 <script setup>
-import { useBadgesStore } from '@/store/views/badges/badges'
+import { useBadgesStore } from '@/store/views/components/badges/badges'
 import { computed } from 'vue'
 import BorderBadgesCard from './components/border/BorderBadgesCard.vue'
 import ButtonBadgesCard from './components/button/ButtonBadgesCard.vue'

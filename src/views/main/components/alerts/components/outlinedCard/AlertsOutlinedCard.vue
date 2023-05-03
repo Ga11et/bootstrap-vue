@@ -4,7 +4,7 @@
   </AlertsCardLayout>
 </template>
 <script setup>
-import { useAlertsStore } from '@/store/views/alerts/alerts'
+import { useAlertsStore } from '@/store/views/components/alerts/alerts'
 import { computed } from 'vue'
 import AlertsCardLayout from '../../layouts/AlertsCardLayout.vue'
 import OutlinedAlert from './components/OutlinedAlert.vue'

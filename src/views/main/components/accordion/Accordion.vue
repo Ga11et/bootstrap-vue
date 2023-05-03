@@ -6,7 +6,7 @@
   </div>
 </template>
 <script setup>
-import { useAccordionStore } from '@/store/views/accordion/accordion'
+import { useAccordionStore } from '@/store/views/components/accordion/accordion'
 import { computed } from 'vue'
 import AccordionDefault from './components/default/AccordionDefault.vue'
 import AccordionWithoutBorders from './components/withoutBorders/AccordionWithoutBorders.vue'

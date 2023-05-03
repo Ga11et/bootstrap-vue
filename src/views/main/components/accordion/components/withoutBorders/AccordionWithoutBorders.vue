@@ -6,7 +6,7 @@
   </base-card>
 </template>
 <script setup>
-import { useAccordionStore } from '@/store/views/accordion/accordion'
+import { useAccordionStore } from '@/store/views/components/accordion/accordion'
 import { computed } from 'vue'
 import WithoutBordersItem from './components/WithoutBordersItem.vue'
 const accordionStore = useAccordionStore()
