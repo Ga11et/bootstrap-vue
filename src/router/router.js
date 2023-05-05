@@ -26,6 +26,10 @@ const routes = [
     path: '/buttons',
     component: () => import('../views/main/components/buttons/Buttons.vue'),
   },
+  {
+    path: '/cards',
+    component: () => import('../views/main/components/cards/Cards.vue'),
+  },
 ]
 
 const router = createRouter({
