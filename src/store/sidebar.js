@@ -18,7 +18,7 @@ export const useSidebarStore = defineStore('sidebar', {
           { id: '24', text: 'BreadCrumbs', link: 'BreadCrumbs' },
           { id: '25', text: 'Buttons', link: 'Buttons' },
           { id: '26', text: 'Cards', link: 'Cards' },
-          { id: '27', text: 'Carusel', link: 'Carusel' },
+          { id: '27', text: 'Carousel', link: 'Carousel' },
           { id: '28', text: 'List group', link: 'Listgroup' },
           { id: '29', text: 'Modal', link: 'Modal' },
           { id: '210', text: 'Tabs', link: 'Tabs' },

@@ -30,6 +30,10 @@ const routes = [
     path: '/cards',
     component: () => import('../views/main/components/cards/Cards.vue'),
   },
+  {
+    path: '/carousel',
+    component: () => import('../views/main/components/carousel/Carousel.vue'),
+  },
 ]
 
 const router = createRouter({
