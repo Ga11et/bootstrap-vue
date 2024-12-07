@@ -10,7 +10,7 @@
 <script setup>
 import { useSidebarStore } from '@/store/sidebar'
 import { computed } from 'vue'
-import NavItem from './components/navitem/NavItem.vue'
+import NavItem from './components/navItem/NavItem.vue'
 
 const sidebarStore = useSidebarStore()
 const active = computed(() => sidebarStore.getSidebarActive)
