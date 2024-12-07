@@ -12,14 +12,17 @@ export default defineConfig({
     },
   },
   build: {
+    chunkSizeWarningLimit: 1600,
     rollupOptions: {
-      output: {
-        manualChunks: {
-          // lodash: ['lodash']
-        }
+        output:{
+            manualChunks(id) {
+                if (id.includes('node_modules')) {
+                    return id.toString().split('node_modules/')[1].split('/')[0].toString();
+                  }
+              }
+          }
       }
-    },
   },
   plugins: [vue()],
-   base: `/${ASSET_URL}/`
+  base: `/${ASSET_URL}/`
 });
