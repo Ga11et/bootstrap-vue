@@ -3,7 +3,7 @@ import { centeredCrumbs } from './state/centeredCrumbs'
 import { defaultCrumbs } from './state/defaultCrumbs'
 import { headingData } from './state/headingData'
 import { rightCrumbs } from './state/rightCrumbs'
-import { withDividersCrumbs } from './state/WithDividersCrumbs'
+import { withDividersCrumbs } from './state/withDividersCrumbs'
 import { withHomeIconCrumbs } from './state/withHomeIconCrumbs'
 import { withTitleCrumbs } from './state/withTitleCrumbs'
 
