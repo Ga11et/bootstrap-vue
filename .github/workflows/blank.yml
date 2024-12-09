@@ -34,6 +34,7 @@ jobs:
             cd ${{ secrets.PROJECT_FOLDER }};
             git checkout main;
             git pull origin main;
+            nvm use 20;
             yarn;
             yarn build;
             pm2 restart bootstrap_5;
